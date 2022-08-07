@@ -153,6 +153,8 @@ body {
 .dance {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin-left: 5%;
     gap: 4rem;
 }
 .dance_type {
@@ -179,3 +181,94 @@ body {
 /* Second Section End  */
 /* Second Section End  */
 /* Second Section End  */
+
+
+/* Pricing Section Start  */
+/* Pricing Section Start  */
+/* Pricing Section Start  */
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4rem 5rem 4rem;
+    background-color: #2f2f2f;
+}
+.pricing_description {
+    margin-bottom: 2rem;
+}
+.pricing_description h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+.pricing_description p {
+    color: rgb(240, 214, 150);
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+.plans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin-left: 10%;
+    gap: 3rem;
+    justify-content: space-between;
+    
+}
+.plan {
+    background-color: #fd5c05;
+    height: 22rem;
+    width: 19rem;
+    padding-bottom: 2rem;
+}
+.icon {
+    color: rgb(248, 243, 229);
+    font-size: 4rem;
+    width: 20%;
+    margin-left: 40%;
+    padding: 2rem 0;
+}
+.plan h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+.plan p {
+    color: rgb(248, 255, 255);
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0 0.5rem 0.8rem 0.5rem;
+}
+.plan button {
+    width: 80%;
+    margin-left: 10%;
+    padding: 0.8rem 0rem;
+    border: none;
+    background-color: #2f2f2f;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 0.8rem;
+}
+.plan button:hover {
+    background-color: rgb(197, 0, 0);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* ---- pricing section end ------- */
+/* ---- pricing section end ------- */
+/* ---- pricing section end ------- */
