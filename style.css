@@ -41,13 +41,15 @@ body {
     letter-spacing: 0.03rem;
 }
 .navigation a:hover {
-    background-color: #e7631c;
+    background-color: rgb(197, 0, 0);
     border-radius: 0.6rem;
+    cursor: pointer;
+    transition: 0.7s;
 
     
 }
 .active{
-    background-color: #e7631c;
+    background-color: rgb(197, 0, 0);
     border-radius: 0.6rem;
 
 }
@@ -99,8 +101,14 @@ body {
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.04rem;
-    border-radius: 0.4rem;
+    border-radius: 0.6rem;
+    transition: 0.7s;
 
+}
+.section_button button:hover {
+    background-color: rgb(197, 0, 0);
+    color: white;
+    cursor: pointer;
 }
 
 /* Header Section End  */
@@ -171,4 +179,3 @@ body {
 /* Second Section End  */
 /* Second Section End  */
 /* Second Section End  */
-
