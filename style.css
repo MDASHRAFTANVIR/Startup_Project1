@@ -106,3 +106,69 @@ body {
 /* Header Section End  */
 /* Header Section End  */
 /* Header Section End  */
+
+
+/* Second Section Start  */
+/* Second Section Start  */
+/* Second Section Start  */
+
+.second_section {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4rem 5rem 4rem;
+    background-color: #fd5c05;
+}
+.description {
+    margin-bottom: 2rem;
+}
+.description h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+.description p {
+    color: aliceblue;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+.dance_type img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.dance {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+.dance_type {
+    background-color: #303030;
+    
+}
+.dance h3 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+.dance p {
+    color: azure;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0 0.5rem 0.8rem 0.5rem;
+}
+
+/* Second Section End  */
+/* Second Section End  */
+/* Second Section End  */
+
