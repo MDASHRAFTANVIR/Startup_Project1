@@ -49,7 +49,7 @@ body {
     
 }
 .active{
-    background-color: rgb(197, 0, 0);
+    background-color: #fd6411;
     border-radius: 0.6rem;
 
 }
@@ -222,7 +222,7 @@ body {
     
 }
 .plan {
-    background-color: #fd5c05;
+    background-color: #e75404;
     height: 22rem;
     width: 19rem;
     padding-bottom: 2rem;
@@ -262,7 +262,7 @@ body {
     border-radius: 0.8rem;
 }
 .plan button:hover {
-    background-color: rgb(197, 0, 0);
+    background-color: rgb(148, 3, 3);
     color: white;
     cursor: pointer;
     transition: 0.5s;
