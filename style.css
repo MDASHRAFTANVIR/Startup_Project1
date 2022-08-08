@@ -12,10 +12,7 @@ body {
 
 
 .first_section {
-    width: 100%;
-    
-    
-    
+    width: 100%;  
     
 }
 .navbar {
@@ -276,11 +273,91 @@ nav ul li a:hover {
 /* Applying Media Queries */
 
 
-/* Media Queries for Mobile Device */
-/* Media Queries for Mobile Device */
-/* Media Queries for Mobile Device */
+/*------------------------- Media Queries for Mobile Device------------------- */
+/*------------------------- Media Queries for Mobile Device------------------- */
+/*------------------------- Media Queries for Mobile Device------------------- */
 
 @media screen and (max-width:576px) {
+        .navbar {
+                display: flex;
+                flex-direction: column;
+                background-color: #2f2f2f;
+            }
+        
+            .logo a img {
+                width: 30%;
+                margin-left: 35%;
+            }
+            nav ul {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+            }
+        
+            nav ul li {
+                width: 90%;
+                margin-left: 5%;
+                padding: 0.4rem 1rem;
+            }
+        
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0.06rem;
+                padding: 0.4rem 4rem;
+                border-radius: 0.5rem;
+        
+            }
+        .head {
+                background: linear-gradient(rgba(231, 99, 28, 0.5), rgba(231, 99, 28, 0.2)), url("images/hero-bg.png");
+                width: 100%;
+                height: 42rem;
+                background-position: center;
+                background-size: cover;
+                background-blend-mode: darken;
+                position: relative;
+        
+        
+            }
+        
+            .head_description {
+                margin-top: 10%;
+                margin-left: 2rem;
+                margin-bottom: 5rem;
+                width: 60%;
+                position: absolute;
+        
+            }
+        
+            .head_description h1 {
+                color: whitesmoke;
+                font-size: 2.4rem;
+                font-weight: 500;
+                letter-spacing: 0.03rem;
+            }
+        
+            .head_description p {
+                color: rgb(247, 240, 240);
+                font-size: 1.1rem;
+                font-weight: 200;
+                letter-spacing: 0.05rem;
+            }
+        
+            .head_description button {
+                padding: 0.8rem 2.9rem;
+                border: none;
+                background-color: #fd6411;
+                color: white;
+                font-size: 1rem;
+                font-size: 1rem;
+                font-weight: 600;
+                letter-spacing: 0.04rem;
+                border-radius: 0.6rem;
+                transition: 0.7s;
+                margin-top: 1rem;
+            }
 
 
     
@@ -311,22 +388,73 @@ nav ul li a:hover {
 
 }
 
-/* Media Queries for Tab  */
-/* Media Queries for Tab  */
-/* Media Queries for Tab  */
+/*---------------- Media Queries for Medium Device  ----------------------*/
+/*---------------- Media Queries for Medium Device  ----------------------*/
+/*---------------- Media Queries for Medium Device  ----------------------*/
 
-@media screen and (min-width:577px) and (max-width:791px) {
+@media screen and (min-width:577px) and (max-width:991px) {
+    nav ul li {
+            margin-right: 0.7rem;
+            padding: 0.4rem 0.6rem;
+        }
     
-        .logo {
-            width: 20%;
-            float: left;
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 0.06rem;
+            padding: 0.4rem 1rem;
+            border-radius: 0.5rem;
+    
         }
-        .navigation {
-            width: 60%;
-            float: right;
+    .head {
+            background: linear-gradient(rgba(231, 99, 28, 0.5), rgba(231, 99, 28, 0.2)), url("images/hero-bg.png");
+            width: 100%;
+            height: 35rem;
+            background-position: center;
+            background-size: cover;
+            background-blend-mode: darken;
+            position: relative;
+    
+    
         }
-        .navigation a  {
-            margin-left: 0; 
+    
+        .head_description {
+            margin-top: 10%;
+            margin-left: 5rem;
+            margin-bottom: 5rem;
+            width: 50%;
+            position: absolute;
+    
+        }
+    
+        .head_description h1 {
+            color: whitesmoke;
+            font-size: 2.4rem;
+            font-weight: 500;
+            letter-spacing: 0.03rem;
+        }
+    
+        .head_description p {
+            color: rgb(247, 240, 240);
+            font-size: 1.1rem;
+            font-weight: 200;
+            letter-spacing: 0.05rem;
+        }
+    
+        .head_description button {
+            padding: 0.8rem 2.9rem;
+            border: none;
+            background-color: #fd6411;
+            color: white;
+            font-size: 1rem;
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: 0.04rem;
+            border-radius: 0.6rem;
+            transition: 0.7s;
+            margin-top: 1rem;
         }
     
         .section_info {
