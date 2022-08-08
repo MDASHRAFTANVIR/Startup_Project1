@@ -5,96 +5,92 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+
+/* Header section Start Here  */
+/* Header section Start Here  */
+/* Header section Start Here */
+
+
+.first_section {
     width: 100%;
-
+    
+    
+    
+    
 }
-
-
-/* Navigation Section Start  */
-/* Navigation Section Start  */
-/* Navigation Section Start  */
-
-.navbar nav {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #303030;
-    padding: 1rem;
-    margin: 0 auto;
-    align-items: center;
+    background-color: #2f2f2f;
 }
 .logo a img {
-    width: 4.8rem;
-    margin-left: 5.1rem;
+    width: 4.0rem;
+    align-content: center;
+    margin-top: 10%;
+    margin-left: 4rem;
 }
-.navigation {
-    margin-right: 5.1rem;
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
 }
-.navigation a{
+nav ul li {
+    margin-right: 1rem;
+    padding: 0.4rem 1rem;
+}
+nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 0.4rem 1.6rem;
-    margin-right: 1rem;
     font-size: 1rem;
     font-weight: 400;
-    letter-spacing: 0.03rem;
+    letter-spacing: 0.06rem;  
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+
 }
-.navigation a:hover {
-    background-color: rgb(197, 0, 0);
-    border-radius: 0.6rem;
+nav ul li a:hover {
+    background-color: #e75404;
     cursor: pointer;
-    transition: 0.7s;
-
-    
 }
-.active{
-    background-color: #fd6411;
-    border-radius: 0.6rem;
-
+.active {
+    background-color: #e75404;
 }
-
-/* Navigation section End  */
-/* Navigation section End  */
-/* Navigation section End  */
-
-
-/* Header section Start  */
-/* Header section Start  */
-/* Header section Start  */
-
-.hero_section {
+.head {
     background: linear-gradient(rgba(231, 99, 28, 0.5), rgba(231, 99, 28, 0.2)), url("images/hero-bg.png");
     width: 100%;
+    height: 35rem;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
     
-    
+   
 }
-.section_info {
-    width: 50%;
-    margin-left: 2rem;
+.head_description {
     margin-top: 10%;
-    margin-bottom: 8rem;
-    display: inline-block; 
-    
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    width: 40%; 
+    position: absolute;
+     
 }
-.section_info h1 {
+.head_description h1 {
     color: whitesmoke;
     font-size: 2.4rem;
     font-weight: 500;
     letter-spacing: 0.03rem;
 }
-.section_info p {
-    color: rgb(248, 226, 226);
-    font-size: 1.2rem;
-    font-weight: 300;
+.head_description p {
+    color: rgb(247, 240, 240);
+    font-size: 1.1rem;
+    font-weight: 200;
     letter-spacing: 0.05rem;
 }
-.section_info button {
+.head_description button {
     padding: 0.8rem 2.9rem;
-    margin-top: 1rem;
     border: none;
     background-color: #fd6411;
     color: white;
@@ -104,20 +100,20 @@ body {
     letter-spacing: 0.04rem;
     border-radius: 0.6rem;
     transition: 0.7s;
-
 }
-.section_info button:hover {
+.head_description button:hover {
     background-color: rgb(197, 0, 0);
-    color: white;
     cursor: pointer;
 }
 
-/* Header Section End  */
-/* Header Section End  */
-/* Header Section End  */
+
+/* -----Header Section End ----  */
+/* -----Header Section End ----  */
+/* -----Header Section End ----  */
 
 
-/* Second Section Start  */
+
+/* Second Section Start ---------------------- */
 /* Second Section Start  */
 /* Second Section Start  */
 
@@ -285,40 +281,9 @@ body {
 /* Media Queries for Mobile Device */
 
 @media screen and (max-width:576px) {
-    .navbar nav {
-            display: flex;
-            flex-direction: column;
-            background-color: #303030;
-            
-        }
+
+
     
-        .logo a img {
-            width: 50%;
-            margin-left: 25%;
-            margin-bottom: 1rem;
-  
-        }
-    
-        .navigation {
-            margin-right: 5.1rem;
-        }
-    
-        .navigation a {
-            text-decoration: none;
-            display: flex;
-            width: 60%;
-            margin-left: 20%;
-            padding: 0.6rem 2rem;
-            color: white;
-            font-size: 1rem;
-            font-weight: 400;
-            letter-spacing: 0.03rem;
-        }
-        .hero_section  {
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
         .section_info {
             width: 50%;
         }
@@ -350,40 +315,18 @@ body {
 /* Media Queries for Tab  */
 /* Media Queries for Tab  */
 
-@media screen and (min-width:577px) and (max-width:768px) {
-    .navbar nav {
-            display: flex;
-            flex-direction: column;
-            background-color: #303030;
+@media screen and (min-width:577px) and (max-width:791px) {
+    
+        .logo {
+            width: 20%;
+            float: left;
         }
-    
-        .logo a img {
-            width: 50%;
-            margin-left: 25%;
-            margin-bottom: 1rem;
-    
-        }
-    
         .navigation {
-            margin-right: 5.1rem;
-        }
-    
-        .navigation a {
-            text-decoration: none;
-            display: flex;
             width: 60%;
-            margin-left: 20%;
-            padding: 0.6rem 2rem;
-            color: white;
-            font-size: 1rem;
-            font-weight: 400;
-            letter-spacing: 0.03rem;
+            float: right;
         }
-    
-        .hero_section {
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+        .navigation a  {
+            margin-left: 0; 
         }
     
         .section_info {
@@ -419,11 +362,3 @@ body {
 /* Media Queries for Large Device  */
 /* Media Queries for Large Device  */
 /* Media Queries for Large Device  */
-@media screen and (min-width:769px) and (max-width:992px) {
-    .plans {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            margin: 0 auto;
-        }
-    
-}
