@@ -82,6 +82,7 @@ nav ul li a:hover {
     font-size: 2.4rem;
     font-weight: 500;
     letter-spacing: 0.03rem;
+    text-shadow: 3px 4px 7px rgba(151, 142, 110, 0.8);
 }
 .head_description p {
     color: rgb(247, 240, 240);
@@ -133,6 +134,7 @@ nav ul li a:hover {
     font-size: 3rem;
     font-weight: 500;
     letter-spacing: 0.05rem;
+    text-shadow: 3px 4px 7px rgba(78, 73, 54, 0.8);
 }
 .description p {
     color: aliceblue;
@@ -200,6 +202,7 @@ nav ul li a:hover {
     font-size: 3rem;
     font-weight: 500;
     letter-spacing: 0.05rem;
+    text-shadow: 3px 4px 7px rgba(151, 142, 110, 0.8);
 }
 .pricing_description p {
     color: rgb(240, 214, 150);
