@@ -376,11 +376,105 @@ nav ul li a:hover {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.05rem;
+    
 }
 
 /* Section Four END Here ----------  */
 /* Section Four END Here ----------  */
 /* Section Four END Here ----------  */
+
+
+/* ------ 5th Section Start Here -----  */
+/* ------ 5th Section Start Here -----  */
+/* ------ 5th Section Start Here -----  */
+
+.fifth_section {
+    background: linear-gradient(rgba(231, 99, 28, 0.7), rgba(231, 99, 28, 0.7)), url("images/5thsection.png");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+ 
+    
+}
+.fifth_des {
+    text-align: center;
+    margin-top: 15%;
+    width: 50%;
+    margin-left: 25%; 
+}
+.fifth_des h2 {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    text-shadow: 3px 4px 7px rgba(73, 69, 54, 0.8);
+}
+.fifth_des h5 {
+    color: rgb(255, 251, 247);
+    font-size: 1rem;
+    letter-spacing: 0.06rem;
+    font-weight: 400;
+    
+}
+
+/* 5th Section End Here ----  */
+/* 5th Section End Here ----  */
+/* 5th Section End Here ----  */
+
+
+
+/* -------------- contact section start Here -----  */
+/* -------------- contact section start Here -----  */
+/* -------------- contact section start Here -----  */
+.form {
+    width: 100%;
+    background-color: #e75404;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+.submit {
+    width: 50%;
+    margin-left: 25%;
+    padding: 5rem 0rem;
+    text-align: center;
+}
+.submit h2 {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    text-shadow: 3px 4px 7px rgba(73, 69, 54, 0.8);
+}
+.submit p {
+    color: rgb(240, 214, 150);
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+#email {
+    border:none;
+    width: 60%;
+    padding: 0.8rem 0rem;
+    font-size: 1rem;
+   
+}
+#button {
+    border: none;
+    width: 20%;
+    padding: 0.8rem 0rem;
+    margin-left: -0.2rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+/* ------------ Contact Section End Here --------------  */
+/* ------------ Contact Section End Here --------------  */
+/* ------------ Contact Section End Here --------------  */
 
 /* Applying Media Queries */
 
@@ -473,43 +567,81 @@ nav ul li a:hover {
 
 
     
-        .section_info {
-            width: 50%;
-        }
-        .section_info h1 {
-            font-size: 2rem;
-        }
-        .description p {
-            width: 80%;
-            margin-left: 10%;
-        }
-        .dance {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        }
-        .pricing_description p {
-            width: 90%;
-            margin-left: 5%;
-        }
-        .plans {
+            .section_info {
+                width: 50%;
+            }
+            .section_info h1 {
+                font-size: 2rem;
+            }
+            .description p {
+                width: 80%;
+                margin-left: 10%;
+            }
+            .dance {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            margin: 0 auto;            
-        }
-        .section_third {
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            
-        }
-        .third {
-            width: 100%;
-            height: 100%;
-            
-        }
-        .extra {
-            display: none;
-        }
+            }
+            .pricing_description p {
+                width: 90%;
+                margin-left: 5%;
+            }
+            .plans {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                margin: 0 auto;            
+            }
+            .section_third {
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
 
+            }
+            .third {
+                width: 100%;
+                height: 100%;
+
+            }
+            .extra {
+                display: none;
+            }
+
+                        .statistics {
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            justify-content: space-evenly;
+                            gap: 1.5rem;
+                            text-align: center;
+                            width: 60%;
+                            margin-left: 20%;
+                            margin-bottom: 3rem;
+                        }
+
+
+            .fifth_des {
+                text-align: center;
+                margin-top: 30vh;
+                width: 80%;
+                margin-left: 10%;
+            }
+            .submits {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+            #email {
+                padding: 0.6rem 4rem;
+                font-size: 1rem;
+                border-radius: 0.5rem;
+                
+
+            }
+            #button {
+                padding: 0.6rem 1rem;
+                font-size: 1rem;
+                width: 80%;
+                margin-top: 0.5rem;
+                border-radius: 0.5rem;
+            }
 
 }
 
@@ -621,6 +753,25 @@ nav ul li a:hover {
             height: 100%;
 
         }
+        .fifth_des {
+            text-align: center;
+            margin-top: 35vh;
+            width: 80%;
+            margin-left: 10%;
+        }
+        .submits {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        #email {
+            width: 70%;
+        }
+        #button {
+            width: 30%;
+        }
+        
+                
 }
 
 /* Media Queries for Large Device  */
