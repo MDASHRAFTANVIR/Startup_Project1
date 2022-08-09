@@ -537,6 +537,57 @@ nav ul li a:hover {
 
 
 
+/* ------------------- Footer section start Here ------  */
+/* ------------------- Footer section start Here ------  */
+/* ------------------- Footer section start Here ------  */
+
+.footer_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #303030;
+    padding: 2rem 4rem;
+    gap: 4rem;
+    
+}
+.foot_second {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer_section h3 {
+    color: white;
+}
+.foot {
+    width: 100%;
+
+}
+.foot p {
+    color: rgb(240, 214, 150);
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+.social a {
+    font-size: 1.4rem;
+    color: lightskyblue;
+    padding: 1.2rem;
+    margin-left: -1.2rem;
+}
+.foots {
+    display: flex;
+    flex-direction: column;
+}
+.foot_second a {
+    text-decoration: none;
+    color: lightsteelblue;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    margin-top: 0.5rem;
+}
+
+/* Footer Section End Here ---------  */
+/* Footer Section End Here ---------  */
+/* Footer Section End Here ---------  */
+
 
 
 
@@ -716,6 +767,20 @@ nav ul li a:hover {
                 margin-top: 0.5rem;
                 border-radius: 0.5rem;
             }
+
+            .footer_section {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                text-align: center;
+                padding: 2rem 1rem;
+                gap: 2rem;
+                
+            }
+            .foot {
+                text-align: center;
+            }
+            
+        
 
 }
 
