@@ -328,7 +328,59 @@ nav ul li a:hover {
 
 
 
+/* ---------------- Section Four Start here --------  */
+/* ---------------- Section Four Start here --------  */
+/* ---------------- Section Four Start here --------  */
 
+.section-four {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    background-color: #2f2f2f;
+}
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 3rem;
+}
+.section_header {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.section_header h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    text-shadow: 3px 4px 7px rgba(187, 173, 127, 0.8);
+}
+.section_header p {
+    color: rgb(240, 214, 150);
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+.statistics h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.statistics h5 {
+    color: rgb(240, 214, 150);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+
+/* Section Four END Here ----------  */
+/* Section Four END Here ----------  */
+/* Section Four END Here ----------  */
 
 /* Applying Media Queries */
 
